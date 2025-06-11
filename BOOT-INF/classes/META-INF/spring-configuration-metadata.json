@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "folder",
+      "type": "com.integrapps.comunicador.service.config.FolderConfiguration",
+      "sourceType": "com.integrapps.comunicador.service.config.FolderConfiguration"
+    },
+    {
+      "name": "sengrid",
+      "type": "com.integrapps.comunicador.service.config.SengridConfiguration",
+      "sourceType": "com.integrapps.comunicador.service.config.SengridConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "folder.url",
+      "type": "java.lang.String",
+      "sourceType": "com.integrapps.comunicador.service.config.FolderConfiguration"
+    },
+    {
+      "name": "sengrid.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.integrapps.comunicador.service.config.SengridConfiguration"
+    },
+    {
+      "name": "sengrid.apikey",
+      "type": "java.lang.String",
+      "description": "Description for sengrid.apikey."
+    },
+    {
+      "name": "sengrid.from",
+      "type": "java.lang.String",
+      "sourceType": "com.integrapps.comunicador.service.config.SengridConfiguration"
+    }
+  ],
+  "hints": []
+}
